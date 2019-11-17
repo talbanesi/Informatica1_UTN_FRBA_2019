@@ -1,0 +1,4 @@
+gcc -c -o sock-lib.o sock-lib.c -g -Wall
+ar rcs libsock.a sock-lib.o
+gcc -o servers server.c -Wall -g -lsock -L.
+gcc -o clientes clientgcc -o servers server.c -Wall -g -lsock -L..c -Wall -g -lsock -L.

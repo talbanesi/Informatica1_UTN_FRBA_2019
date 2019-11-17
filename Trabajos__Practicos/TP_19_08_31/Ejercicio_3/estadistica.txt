@@ -1,0 +1,3 @@
+valores x-x: promedio 20.301399 maximo 90.390999
+valores x-x: promedio 21.401899 maximo 92.431000
+valores x-x: promedio 21.388700 maximo 92.431000

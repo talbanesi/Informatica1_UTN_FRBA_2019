@@ -1,0 +1,41 @@
+Ejercicio 1:
+
+a) Realizar un programa que permita pasar a mayúsculas todas las letras de un archivo de texto cuyo nombre recibe como argumento del main y lo imprima en pantalla.
+
+b) Generar un nuevo archivo llamado «nombre_anterior»+mayus.txt que contenga el archivo original pasado a mayus.
+
+c) repetir el programa anterior pasando a minúscula.
+
+d) modificar el programa anterior para que cuente la cantidad de letras del archivo y las imprima en pantalla
+
+e) modificar el programa anterior para que genere un nuevo archivo llamado con el nombre el archivo original concatenado con el texto “_sin_espacios.txt”, que contenga todo el texto del archivo original pero sin los espacios.
+
+Ejercicio 2:
+
+a) se tiene un directorio con archivos correspondientes a notas de cada alumno, con un archivo por alumno, nombrado con el nombre del alumno, por ejemplo las notas de Juan Perez estan guardadas en el archivo: juanperez.dat de la siguiente forma
+
+ 9
+ 5
+ 7
+ 4
+ 7
+ ...
+Realizar un programa que reciba por linea de comandos el nombre de un alumno, y luego abra un archivo de notas de ese alumno. Finalmente debe imprimir la cantidad de notas que existen guardadas y su promedio.
+
+b) Modificar el programa anterior y encapsularlo en una función que reciba el nombre de un alumno y devuelva la cantidad de notas y el promedio. También realizar una función que reciba la estructura con nota y promedio y lo imprima en pantalla.
+
+c) Se tiene un archivo con una lista de nombres de alumnos, uno por línea, llamado “lista.txt”. Realizar un programa que lea cada uno de los nombres de los alumnos y luego imprima en pantalla el promedio y cantidad de notas de cada alumno.
+
+Ejercicio 3:
+
+Se tiene un archivo de texto llamado “datos” con 10 valores float por línea separados por una barra “/”, como el siguiente:
+
+ 1.432/0.321/53.091/4.213/4.299/32.341/9.781/4.122/90.391/3.023\n
+ 0.132/4.31/3.99/0.211/92.431/0.431/6.43/49.432/52.542/4.11\n
+ ...
+Realizar un programa que lea valores float de un archivo de estas características y calcule el máximo y el promedio en grupos de a diez valores. Luego escriba este resultado en un archivo llamado “estadistica.txt”, donde se guarde en una línea el valor del promedio y maximo de un grupo de valores, como sigue:
+
+ valores 0-9: promedio 18.281 maximo 53.091
+ valores 10-19: promedio 31.213 maximo 40.159
+ valores 20-29: promedio 5.321 maximo 7.951
+ ...
